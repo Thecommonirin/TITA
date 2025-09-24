@@ -42,7 +42,7 @@ deepspeed --include localhost:0,1,2,3 src/train_dpo_ours.py \
 ## Inference
 ```bash
 python src/inference.py
-python src/llava/serve/test_message.py --controller-address http://localhost:21001 \
+python src/llava/serve/test_message.py --controller-address  \
   --model-name your-model-name --message "Describe the image in detail."
 ```
 
