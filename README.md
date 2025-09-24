@@ -1,6 +1,5 @@
 # TITA: Token-Wise Inference-Time Alignment for Vision-Language Models
 
-TITA 项目提供了一套用于视觉语言模型对齐与评估的工具链，包含离线训练脚本、推理入口以及 API 基准测评子包 `tita-benchmarks`。本指南帮助你快速搭建环境、运行基准和复现训练流程。
 
 ## 项目亮点 Highlights
 - ✅ 一站式 CLI：`tita-bench` 支持生成样例题目、调用云端模型并自动汇总统计。
@@ -70,5 +69,4 @@ python src/llava/serve/test_message.py --controller-address http://localhost:210
 ## 评测 Evaluation
 更多评测设置可参考 [LLaVA-1.5 文档](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md)。结合 `tita-bench eval` 结果，可追踪 Token 消耗与响应延迟。
 
-## 贡献 Contributing
-协作者指南详见 `AGENTS.md`，包含代码风格、测试与提 PR 规范。欢迎通过 Issue/PR 反馈问题与改进建议。
+
